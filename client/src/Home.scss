@@ -1,0 +1,15 @@
+.HomeComp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Brands {
+  width: calc(100% - 13.6em);
+  margin-top: 2em;
+  h1 {
+    color: #2e2e2e;
+    font-weight: 500;
+  }
+}
