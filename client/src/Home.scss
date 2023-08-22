@@ -8,8 +8,25 @@
 .Brands {
   width: calc(100% - 13.6em);
   margin-top: 2em;
+  margin-bottom: 2em;
+  height: 15em;
+
   h1 {
     color: #2e2e2e;
     font-weight: 500;
+  }
+
+  .brand_logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6em;
+    width: 100%;
+    margin-top: 3em;
+    img {
+      object-fit: contain;
+      width: 4em;
+      height: 3em;
+    }
   }
 }
