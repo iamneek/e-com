@@ -27,10 +27,10 @@ const Navbar = () => {
             </div>
           </li>
           <li>
-            <Link>Most Wanted</Link>
+            <Link>Most wanted</Link>
           </li>
           <li>
-            <Link>New Arrival</Link>
+            <Link>New arrival</Link>
           </li>
           <li>
             <Link>Brands</Link>

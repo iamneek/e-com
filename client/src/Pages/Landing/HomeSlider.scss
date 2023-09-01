@@ -1,0 +1,128 @@
+.banner_text {
+  font-weight: 600;
+  font-size: 5rem;
+  position: absolute;
+  left: 50%;
+  top: 37%;
+  line-height: -6em;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  width: 100%;
+  z-index: 1;
+  letter-spacing: -1px;
+  user-select: none;
+  font-family: "Plus Jakarta Sans";
+}
+.backdrop {
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  position: absolute;
+  opacity: 0.45;
+}
+
+.sliderDiv {
+  overflow: hidden;
+  margin-top: 0.7em;
+  width: calc(100% - 13.6em);
+  height: 34.3em;
+  position: relative;
+  border-radius: 0.5em;
+  background-color: #2e2e2e;
+  img {
+    width: 76.5em;
+    object-position: center;
+    margin-top: -8.3em;
+  }
+}
+
+.next_prev_banner {
+  background-color: #fff;
+  position: absolute;
+}
+
+.shop_now_banner {
+  position: absolute;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+  background-color: #fff;
+  color: #454b54;
+  padding: 1em;
+  border: none;
+  font-family: "Quicksand";
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 0.4em;
+  width: 9.8em;
+  left: 50%;
+  top: 65%;
+  transform: translate(-50%, -50%);
+  outline: none;
+  cursor: pointer;
+  &:hover {
+    background-color: #f1f1f1;
+  }
+}
+
+.bubble {
+  width: 0.5em;
+  height: 0.5em;
+  border-radius: 50%;
+  background-color: #808080;
+  cursor: pointer;
+}
+
+.bubbles {
+  bottom: 0;
+  left: 50%;
+  top: 80%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+  transform: translate(-50%, -50%);
+}
+.bubble_selected {
+  background-color: #fff;
+  width: 0.56em;
+  height: 0.56em;
+}
+.next_prev_banner {
+  bottom: 0;
+  right: -1.58em;
+  top: 10%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translate(-50%, -50%);
+  height: 3.2em;
+  width: 6.3em;
+  border-radius: 0.5em;
+  overflow: hidden;
+}
+
+.btnn {
+  background-color: #fff;
+  border: none;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  outline: none;
+  &:hover {
+    background-color: #f1f1f1;
+  }
+}
+
+.btnn:nth-child(1) {
+  border-right: 1px solid #eee;
+}
+
+.prev_btn {
+  color: #ddd;
+}

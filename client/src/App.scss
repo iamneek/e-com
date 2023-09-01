@@ -3,14 +3,14 @@
 
 body {
   background-color: #fff;
-  font-family: Poppins;
+  font-family: "Plus Jakarta Sans";
   color: #2e2e2e;
   height: 100vh;
   width: 100%;
 }
 
 .salebanner {
-  background-color: #252b34;
+  background-color: #1e242c;
   width: 100%;
   height: 2.5em;
   display: flex;
@@ -20,16 +20,19 @@ body {
 }
 .salesbannernotice {
   color: #fff;
-  font-family: Quicksand;
+  font-family: "Plus Jakarta Sans";
   font-size: 0.9em;
 
   a {
     color: #fff;
     margin-left: 1em;
     font-weight: 600;
+    font-family: "Plus Jakarta Sans";
   }
   strong {
     font-weight: 600;
+    margin-left: 2px;
+    margin-right: 2px;
   }
 }
 
@@ -37,4 +40,9 @@ body {
   position: absolute;
   right: 6.5em;
   cursor: pointer;
+}
+
+::selection {
+  background-color: #4a4a4a;
+  color: white;
 }

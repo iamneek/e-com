@@ -13,7 +13,7 @@
 
   h1 {
     color: #2e2e2e;
-    font-weight: 500;
+    font-weight: 700;
   }
 
   .brand_logos {
@@ -21,7 +21,6 @@
     align-items: center;
     justify-content: center;
     gap: 6em;
-    width: 100%;
     margin-top: 3em;
     img {
       object-fit: contain;
@@ -29,4 +28,47 @@
       height: 3em;
     }
   }
+}
+
+.featureLanding {
+  width: calc(100% - 13.6em);
+  margin-bottom: 3em;
+}
+.CurratedPicksLanding {
+  width: calc(100% - 13.6em);
+  margin-bottom: 3em;
+}
+.FeaturedProductList {
+  width: calc(100% - 13.6em);
+  margin-bottom: 3em;
+}
+.offer_landing_page {
+  width: calc(100% - 13.6em);
+  margin-bottom: 3em;
+}
+.newsletter_landing_page {
+  width: calc(100% - 13.6em);
+  margin-bottom: 3em;
+}
+
+.bar_landing {
+  width: 30em;
+  height: 0.7em;
+  background-color: #ebeef2;
+  border-radius: 0.8em;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  overflow: hidden;
+  margin-top: 1em;
+  margin-bottom: 5em;
+  padding: 0.2em;
+  cursor: pointer;
+}
+
+.bar_progress_handle_landing {
+  background-color: #1e242c;
+  border-radius: 0.8em;
+  width: 50%;
+  height: 0.4em;
 }
