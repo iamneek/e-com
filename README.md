@@ -4,10 +4,15 @@ Design inspiration : Dribble
 
 ---
 
+### Todo: 
+
+- [x] Landing Page Basic Template
+- [ ] Landing Page Functional
+
 ## Screenshots
 
-![ Switch's Landing Page ](https://github.com/iamneek/e-com/assets/136208577/1660a221-ef8a-4368-9cef-cdd75f4ee0e7)
-
+![Full Screenshot Landing Page ](https://github.com/iamneek/e-com/assets/136208577/e8817e9a-fd2f-41ba-a767-5bfed5a294fc)
+Landing Page (Switch)
 
 ## Installation
 
@@ -35,4 +40,4 @@ $ yarn dev
 ```
 
 ## 🚀 About Me
-I'm currently learning to make full stack web apps using one of the most popular tech stack MERN. This is one of my project.
+I'm currently learning to develop full stack web apps using one of the most popular tech stack MERN. This is one of my project.
