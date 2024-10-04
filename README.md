@@ -6,7 +6,7 @@ Design inspiration : Dribble
 
 ### Todo: 
 
-- [x] Landing Page Basic Template
+- [x] Landing Page Frontend (Not Responsive)
 - [ ] Landing Page Functional
 
 ## Screenshots
